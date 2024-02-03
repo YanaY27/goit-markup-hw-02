@@ -84,17 +84,28 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
  }
 
  .business-button {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background: #4d5ae5;
     color: #fff;
     cursor: pointer;
  }
+
+.business .business-button:hover {
+    color:#404BBF;
+} 
+
+.business .business-button:focus {
+    color:#404BBF;
+}
 
  .list-style {
     list-style-type:none;
