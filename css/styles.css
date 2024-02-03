@@ -54,7 +54,7 @@
     color: #4d5ae5;
 } 
 
-.adress {
+.address {
     font-style: normal;
 }
 
@@ -100,16 +100,18 @@
  }
 
 .business .business-button:hover {
-    color:#404BBF;
+    background-color:#404BBF;
 } 
 
 .business .business-button:focus {
-    color:#404BBF;
+    background-color:#404BBF;
 }
 
  .list-style {
-    list-style-type:none;
+    list-style-type: none;
  }
+
+
 
  .advantages-title {
     font-family: "Roboto", sans-serif;
@@ -129,11 +131,15 @@
     color: #434455;
  }
 
- .our-team {
+.our-team {
+    background-color: #F4F4FD;
+} 
+
+ .our-team-header {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
      font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -214,7 +220,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
